@@ -14,44 +14,40 @@ Keterangan:
 
     Mode yang digunakan untuk menjalankan program. Ada 4 mode: 
     
-    a.	getToken:
-    
+    -   getToken:
         Mode untuk mendapatkan JWT_TOKEN
-    b.	getKeyList:
-    
+    -   getKeyList:
         Mode untuk mendapatkan list nama variable
-    c.	getLatestValue:
-    
+    -   getLatestValue:
         Mode untuk mendapatkan data nilai terakhir
-    d.	exportLog:
-    
+    -   exportLog:
         Mode untuk menghasilkan datalog dalam file berformat .xlsx atau .csv
 
 2.	ENTITY_TYPE:
-    Tipe entitas 
-    Opsi: TENANT, CUSTOMER, USER, DASHBOARD, ASSET, DEVICE, ALARM
+    Tipe entitas.
+    Opsi: TENANT, CUSTOMER, USER, DASHBOARD, ASSET, DEVICE, ALARM.
 3.	ENTITY_ID:
-    Id dari entitas
+    Id dari entitas.
 4.	KEYLIST:
-    Daftar nama variable yang ingin diambil
-    Dapat diisi ALL jika ingin semua variable
+    Daftar nama variable yang ingin diambil.
+    Dalam mode getLatestValue dapat diisi ALL jika ingin mendapatkan value dari semua variable. 
 5.	STARTTS:
-    Waktu mulai dalam UNIX ms
+    Waktu mulai dalam UNIX ms.
 6.	ENDTS:
-    Waktu akhir dalam UNIX ms
+    Waktu akhir dalam UNIX ms.
 7.	INTERVAL:
-    Interval untuk aggregation dalam second
+    Interval untuk aggregation dalam second.
 8.	ISTELEMETRY:
-    Untuk memilih apakah telemetry atau attributes
-    1 untuk telemetry
-    0 untuk attribute
+    Untuk memilih apakah telemetry atau attributes.
+    -   1 untuk telemetry
+    -   0 untuk attribute
 9.	LIMIT:
-    Batas Records (baris) yang ingin diexport
+    Batas Records (baris) yang ingin diexport.
 10.	AGG:
-    Aggregation Mode
+    Aggregation Mode.
     Opsi: MIN, MAX, AVG, SUM, COUNT, NONE
 11.	FORMAT:
-    Format file yang ingin dihasilkan
+    Format file yang ingin dihasilkan.
     Opsi: XLSX, CSV
 
 Contoh command line:
