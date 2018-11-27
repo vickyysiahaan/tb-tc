@@ -10,15 +10,21 @@ Cara Pakai:
     [ENDTS] --interval [INTERVAL] --isTelemetry [ISTELEMETRY] --limit [LIMIT] --agg [AGG] --format [FORMAT]
     
 Keterangan:
-1.	MODE \n
-    Mode yang digunakan untuk menjalankan program. Ada 4 mode: \n
+1.	MODE 
+
+    Mode yang digunakan untuk menjalankan program. Ada 4 mode: 
+    
     a.	getToken:
+    
         Mode untuk mendapatkan JWT_TOKEN
     b.	getKeyList:
+    
         Mode untuk mendapatkan list nama variable
     c.	getLatestValue:
+    
         Mode untuk mendapatkan data nilai terakhir
     d.	exportLog:
+    
         Mode untuk menghasilkan datalog dalam file berformat .xlsx atau .csv
 
 2.	ENTITY_TYPE:
