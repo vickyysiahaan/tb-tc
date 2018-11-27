@@ -63,8 +63,7 @@ c.	getLatestValue
 
     python tc.py --mode getLatestValue --entity_type DEVICE --entity_id 08021b20-d1bd-11e8-87ee-4be867fcc47c --isTelemetry 0 --keyList ALL
 
-    python tc.py --mode getLatestValue --entity_type DEVICE --entity_id 08021b20-d1bd-11e8-87ee-4be867fcc47c --isTelemetry 1 –keyList 
-    V_1,V_2,V_3
+    python tc.py --mode getLatestValue --entity_type DEVICE --entity_id 08021b20-d1bd-11e8-87ee-4be867fcc47c --isTelemetry 1 –keyList V_1,V_2,V_3
 
 d.	exportLog
 
