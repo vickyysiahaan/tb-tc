@@ -5,46 +5,46 @@ Cara Pakai:
 1.	Buka terminal
 2.	Masuk ke direktori program 
 3.	Jalankan command line berikut
-
-    python tc.py –mode [MODE] --entity_type [ENTITY_TYPE] --entity_id [ENTITY_ID] --keyList [KEYLIST] --startTs [STARTTS] --endTs [ENDTS]     
-    --interval [INTERVAL] --isTelemetry [ISTELEMETRY] --limit [LIMIT] --agg [AGG] --format [FORMAT]
+    
+    python tc.py –mode [MODE] --entity_type [ENTITY_TYPE] --entity_id [ENTITY_ID] --keyList [KEYLIST] --startTs [STARTTS] --endTs 
+    [ENDTS] --interval [INTERVAL] --isTelemetry [ISTELEMETRY] --limit [LIMIT] --agg [AGG] --format [FORMAT]
     
 Keterangan:
 1.	MODE
     Mode yang digunakan untuk menjalankan program. Ada 4 mode:
-    a.	getToken
+    a.	getToken:
         Mode untuk mendapatkan JWT_TOKEN
-    b.	getKeyList
+    b.	getKeyList:
         Mode untuk mendapatkan list nama variable
-    c.	getLatestValue
+    c.	getLatestValue:
         Mode untuk mendapatkan data nilai terakhir
-    d.	exportLog
+    d.	exportLog:
         Mode untuk menghasilkan datalog dalam file berformat .xlsx atau .csv
 
-2.	ENTITY_TYPE
+2.	ENTITY_TYPE:
     Tipe entitas 
     Opsi: TENANT, CUSTOMER, USER, DASHBOARD, ASSET, DEVICE, ALARM
-3.	ENTITY_ID
+3.	ENTITY_ID:
     Id dari entitas
-4.	KEYLIST
+4.	KEYLIST:
     Daftar nama variable yang ingin diambil
     Dapat diisi ALL jika ingin semua variable
-5.	STARTTS
+5.	STARTTS:
     Waktu mulai dalam UNIX ms
-6.	ENDTS
+6.	ENDTS:
     Waktu akhir dalam UNIX ms
-7.	INTERVAL
+7.	INTERVAL:
     Interval untuk aggregation dalam second
-8.	ISTELEMETRY
+8.	ISTELEMETRY:
     Untuk memilih apakah telemetry atau attributes
     1 untuk telemetry
     0 untuk attribute
-9.	LIMIT
+9.	LIMIT:
     Batas Records (baris) yang ingin diexport
-10.	AGG
+10.	AGG:
     Aggregation Mode
     Opsi: MIN, MAX, AVG, SUM, COUNT, NONE
-11.	FORMAT
+11.	FORMAT:
     Format file yang ingin dihasilkan
     Opsi: XLSX, CSV
 
