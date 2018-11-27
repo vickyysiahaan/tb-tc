@@ -10,8 +10,8 @@ Cara Pakai:
     [ENDTS] --interval [INTERVAL] --isTelemetry [ISTELEMETRY] --limit [LIMIT] --agg [AGG] --format [FORMAT]
     
 Keterangan:
-1.	MODE
-    Mode yang digunakan untuk menjalankan program. Ada 4 mode:
+1.	MODE \n
+    Mode yang digunakan untuk menjalankan program. Ada 4 mode: \n
     a.	getToken:
         Mode untuk mendapatkan JWT_TOKEN
     b.	getKeyList:
