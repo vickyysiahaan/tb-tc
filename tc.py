@@ -239,8 +239,8 @@ def LogQuery(entity_type, entity_id, keyList, startTs, endTs, Interval = 60, isT
             #Ubah tipe data
             for row in Records:
                 for i,item in enumerate(row):
-                    row[i]=ast.literal_eval(item)
                     try:
+                        row[i]=ast.literal_eval(item)
                         row[i]=round(row[i],3)
                     except:
                         pass
@@ -424,7 +424,7 @@ def exportLog(entity_type, entity_id, keyList, startTs, endTs, Interval = 60, is
         
     except Exception as e:
         #print(e)
-        raise
+        #raise
         return -1
 
 if __name__ == '__main__':
