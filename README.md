@@ -1,6 +1,6 @@
 # thingsboard telemetry controller API
 
-This is python program to communicate with thingsboard telemetry controller API. User can get list of variables published on a thingsboard telemetry with their value. Historical data can be saved in CSV or XLS file.
+This is a python program to communicate with thingsboard telemetry controller API. User can get list of variables published on a thingsboard telemetry with their value. Historical data can be saved in CSV or XLS file.
 
 Python module needed
 -	openpyxl
