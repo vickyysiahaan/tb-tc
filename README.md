@@ -1,3 +1,6 @@
+# tb-tc
+# created by Vicky Yuliandi
+
 Python Library yang harus diinstall
 -	openpyxl (cara : sudo pip install openpyxl)
 
@@ -69,4 +72,4 @@ d.	exportLog
 
     python tc.py --mode exportLog --entity_type DEVICE --entity_id f6bffe60-d1ba-11e8-87ee-4be867fcc47c --keyList V_1,V_2,V_3,V_12,V_23,V_31,I_1,I_2,I_3,P_Total,Q_Total,S_Total,E_Active,E_Reactive,PF_avg,Freq,VTHD1,VTHD2,VTHD3,ITHD1,ITHD2,ITHD3 --startTs 1541467800000 --endTs 1543541400000 --interval 1200 --isTelemetry 1 --limit 500 --agg AVG --format XLSX
 
-# tb-tc
+
